@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import Atlassian from './Atlassian';
 
@@ -38,7 +38,7 @@ const D5 = {
     forms: [
         <svg viewBox="0 0 135 281" version="1.1">
             <path
-                className="fill-2"
+                className="fill-4"
                 d="M67,22H0v200h67c37,0,67-30,67-67S150,22,67,22z"
             />
         </svg>,

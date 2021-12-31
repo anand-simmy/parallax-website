@@ -1,8 +1,10 @@
 import React from 'react';
+import { Parallax } from 'react-scroll-parallax';
 
 const Atlassian= () => (
     <div className='atlassianContainer'>
         <span className='boundary top-boundary' />
+        <span className='boundary bottom-boundary ' />
         <div className='emailTemplate' />
         <div className='thoughtBubble' />
         <div className='letterContainer'>
@@ -28,7 +30,26 @@ const Atlassian= () => (
                 </div>
             </div>
         </div>
-        <span className='boundary bottom-boundary ' />
+        <div className='moverDiv'>
+            <Parallax y={[-100, 100]} className='mover'>
+                <div className='mover1' />
+            </Parallax>
+        </div>
+        <div className='moverDiv'>
+            <Parallax y={[-100, 100]} className='mover moverOuter2'>
+                <div className='mover2' />
+            </Parallax>
+        </div>
+        <div className='moverDiv'>
+            <Parallax y={[-100, 100]} className='mover moverOuter3'>
+                <div className='mover3' />
+            </Parallax>
+        </div>
+        <div className='moverDiv'>
+            <Parallax y={[-100, 100]} className='mover'>
+                <div className='mover4' />
+            </Parallax>
+        </div>
     </div>
 );
 
