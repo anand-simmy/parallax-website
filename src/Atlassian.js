@@ -41,13 +41,18 @@ const Atlassian= () => (
             </Parallax>
         </div>
         <div className='moverDiv'>
-            <Parallax y={[-100, 100]} className='mover moverOuter3'>
+            <Parallax y={[-300, 300]} className='mover moverOuter3'>
                 <div className='mover3' />
             </Parallax>
         </div>
         <div className='moverDiv'>
-            <Parallax y={[-100, 100]} className='mover'>
+            <Parallax y={[0, 100]} className='mover moverOuter4'>
                 <div className='mover4' />
+            </Parallax>
+        </div>
+        <div className='moverDiv'>
+            <Parallax y={[0, 200]} className='mover moverOuter5'>
+                <div className='mover5' />
             </Parallax>
         </div>
     </div>
