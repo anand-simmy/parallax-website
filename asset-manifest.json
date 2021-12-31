@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/parallax-website/static/css/main.0f8c8828.css",
+    "main.js": "/parallax-website/static/js/main.cad3d17d.js",
+    "static/js/787.1113b39b.chunk.js": "/parallax-website/static/js/787.1113b39b.chunk.js",
+    "static/media/blake-verdoorn-cssvEZacHvQ-unsplash.jpg": "/parallax-website/static/media/blake-verdoorn-cssvEZacHvQ-unsplash.878ab7bd1af09b570efc.jpg",
+    "index.html": "/parallax-website/index.html",
+    "main.0f8c8828.css.map": "/parallax-website/static/css/main.0f8c8828.css.map",
+    "main.cad3d17d.js.map": "/parallax-website/static/js/main.cad3d17d.js.map",
+    "787.1113b39b.chunk.js.map": "/parallax-website/static/js/787.1113b39b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f8c8828.css",
+    "static/js/main.cad3d17d.js"
+  ]
+}
